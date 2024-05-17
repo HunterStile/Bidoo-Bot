@@ -1,0 +1,40 @@
+# Bidoo-Bot
+
+## Descrizione
+Bidoo-Bot è un programma che permette di automatizzare alcune attività su Bidoo, un'app di aste online.
+
+## Funzionalità
+- Effettua l'accesso automatico all'app Bidoo
+- Ricerca e partecipa automaticamente alle aste
+- Monitora lo stato delle aste e invia notifiche
+
+## Requisiti di sistema
+- Python 3.7 o versione successiva
+- Modulo Selenium per l'automazione del browser
+- Connessione Internet stabile
+
+## Installazione
+1. Clona il repository da GitHub: `git clone https://github.com/tuonome/Bidoo-Bot.git`
+2. Entra nella directory del progetto: `cd Bidoo-Bot`
+3. Installa le dipendenze: nella cartella installazione, fai partire `install.py`
+
+## Configurazione
+1. Apri il file `config.py` e inserisci le tue credenziali di accesso a Bidoo
+2. Personalizza le impostazioni del bot secondo le tue preferenze
+
+## Utilizzo
+Ci sono tre modalita di utilizzo:
+1- lancia `Asta.py` per poter automatizzare un asta, inserendo il codice dell'asta. Il bot parteciperò all'asta cliccando l'ultimo millisecondo prima che scada.
+2- il `Crea_Account` ti permette di creare un account bidoo.
+3- Una volta creati piu account, si formera il file csv con tutti gli account creati, i quali saranno utilizzati dall'ultimo applicativo `Boosting.py`, che cliccherà le email per farmare punti di asta!
+
+## Contributi
+Sono benvenuti contributi e suggerimenti per migliorare il programma. Se desideri contribuire, segui le linee guida presenti nel file CONTRIBUTING.md.
+
+## Segnalazione di bug
+Se hai riscontrato un bug o hai delle problematiche, apri una nuova issue nel repository su GitHub.
+
+## Licenza
+Questo programma è distribuito con licenza MIT. Per ulteriori informazioni, consulta il file LICENSE.
+
+
