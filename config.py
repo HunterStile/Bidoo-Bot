@@ -1,0 +1,3 @@
+#ACCESSO BIDOO
+username = ''
+password = ''
